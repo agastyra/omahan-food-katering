@@ -1,3 +1,37 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 header {
   background: linear-gradient(123.48deg, #00985b 30.09%, #000000 115.19%);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#daftar {
+  margin-left: 100px;
+  margin-right: 31px;
+}
+
+#login {
+  padding: 8px 37px;
+  background-color: white;
+  transition: all 0.2s ease-out;
+}
+
+#login:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+#cta {
+  width: 237px;
+  padding: 13px 0;
 }
